@@ -1,5 +1,5 @@
 # JSScanner
-JS Scanner to find for tokens and secrets hardcoded in js files.
+Scan js files to find hardcoded secrets.
 
 ## Installation :
 ```
