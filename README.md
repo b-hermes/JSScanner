@@ -1,22 +1,13 @@
 # JSScanner
-Js File Scanner
-This is Js File Scanner . Which are scan  in js file and  find juicy information Toke,Password Etc.
-
-[![Watch the video](https://img.youtube.com/vi/hsT5BL_EV-g/1.jpg)](https://www.youtube.com/watch?v=hsT5BL_EV-g)
+JS Scanner to find for tokens and secrets hardcoded in js files.
 
 ## Installation :
 ```
-git clone https://github.com/0x240x23elu/JSScanner.git
+git clone https://github.com/b-hermes/JSScanner.git
 cd JSScanner
 pip3 install -r  requirements.txt
 ```
 
-## Note
-
-```
-If you Want to Add New Regex , Please check Regex in python regex checker . Regex File Regex.txt
-Output file bydefault output.txt
-```
 
 ## How to Use
 
@@ -27,9 +18,8 @@ echo "example.com" | waybackurls | httpx > live.txt
 
 ```
 ```
-python3 JSScanner.py
-Please Enter Any File: text.txt (your links file)
-Path Of Regex/Patten File: regex.txt (your regex file)
+python3 JSScanner.py -f file_to_endpoints -r path_to_regex_file -o file_to_save_output
+
 ```
 ## Open redirect 
 
@@ -45,18 +35,7 @@ Path Of Regex/Patten File: regex.txt (your regex file)
 
 
 ```
-## video
-
-```
-https://www.youtube.com/watch?v=hsT5BL_EV-g
-https://youtu.be/hsT5BL_EV-g
-[![Watch the video](https://img.youtube.com/vi/hsT5BL_EV-g/1.jpg)](https://www.youtube.com/watch?v=hsT5BL_EV-g)
-
-```
 ## Some Regex 
-```
-Thank you 
-```
 https://github.com/odomojuli
 https://github.com/odomojuli/RegExAPI
 
